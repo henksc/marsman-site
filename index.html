@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marsman – Cyber Security Consultancy</title>
+  <meta name="description" content="Marsman specialises in cyber security consultancy, auditing, training and programme management." />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: #fff;
+      color: #111;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      border-bottom: 1px solid #111;
+      padding: 2rem 2.5rem;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      padding: 4rem 2.5rem;
+    }
+
+    .content {
+      max-width: 560px;
+    }
+
+    .tagline {
+      font-size: 2.25rem;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 1.5rem;
+    }
+
+    .description {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: #333;
+      margin-bottom: 2.5rem;
+    }
+
+    .services {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .services li {
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #555;
+    }
+
+    .services li::before {
+      content: "— ";
+      color: #bbb;
+    }
+
+    .cta {
+      display: inline-block;
+      background: #111;
+      color: #fff;
+      text-decoration: none;
+      padding: 0.85rem 2rem;
+      font-size: 0.95rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      transition: background 0.15s;
+    }
+
+    .cta:hover {
+      background: #333;
+    }
+
+    footer {
+      border-top: 1px solid #e0e0e0;
+      padding: 1.25rem 2.5rem;
+      font-size: 0.8rem;
+      color: #888;
+    }
+
+    @media (max-width: 480px) {
+      header, main, footer { padding-left: 1.25rem; padding-right: 1.25rem; }
+      .tagline { font-size: 1.75rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Marsman</h1>
+  </header>
+
+  <main>
+    <div class="content">
+      <p class="tagline">Cyber security,<br>done right.</p>
+      <p class="description">
+        Marsman is a Belgian consultancy focused on cyber security.
+        We help organisations strengthen their information security through
+        expert advice, independent audits, targeted training, and structured
+        programme management.
+      </p>
+      <ul class="services">
+        <li>Consultancy</li>
+        <li>Auditing</li>
+        <li>Training</li>
+        <li>Programme Management</li>
+      </ul>
+      <a class="cta" href="https://securityadvice.be" target="_blank" rel="noopener">
+        Visit SecurityAdvice.be &rarr;
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Marsman &bull; <a href="mailto:info@securityadvice.be" style="color:inherit;">info@securityadvice.be</a></p>
+  </footer>
+
+</body>
+</html>
